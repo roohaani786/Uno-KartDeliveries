@@ -28,7 +28,7 @@ class _ExtraItemWidgetState extends State<ExtraItemWidget> with SingleTickerProv
   @override
   void initState() {
     super.initState();
-    animationController = AnimationController(duration: Duration(milliseconds: 350), value: this);
+    animationController = AnimationController(duration: Duration(milliseconds: 350));
     CurvedAnimation curve = CurvedAnimation(parent: animationController, curve: Curves.easeOut);
     animation = Tween(begin: 0.0, end: 60.0).animate(curve)
       ..addListener(() {

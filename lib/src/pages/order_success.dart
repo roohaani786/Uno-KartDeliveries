@@ -72,12 +72,14 @@ class _OrderSuccessWidgetState extends StateMVC<OrderSuccessWidget> {
                               height: 150,
                               decoration: BoxDecoration(
                                   shape: BoxShape.circle,
-                                  gradient: LinearGradient(begin: Alignment.bottomLeft, end: Alignment.topRight,
-                                  //  colors: [
-                                  //   Colors.green.withOpacity(1),
-                                  //   Colors.green.withOpacity(0.2),
-                                  // ]
-                                  )),
+                                  color: Colors.green.withOpacity(1),
+                                  // gradient: LinearGradient(begin: Alignment.bottomLeft, end: Alignment.topRight,
+                                  // //  colors: [
+                                  // //   Colors.green.withOpacity(1),
+                                  // //   Colors.green.withOpacity(0.2),
+                                  // // ]
+                                  // )
+                                  ),
                               child: _con.loading
                                   ? Padding(
                                       padding: EdgeInsets.all(55),

@@ -58,13 +58,15 @@ class NotificationItemWidget extends StatelessWidget {
                   width: 75,
                   height: 75,
                   decoration: BoxDecoration(
+                    color:  
+                        Theme.of(context).focusColor.withOpacity(0.7),
+                     
+                      
                       shape: BoxShape.circle,
-                      gradient: LinearGradient(begin: Alignment.bottomLeft, end: Alignment.topRight, 
-                      // colors: [
-                      //   Theme.of(context).focusColor.withOpacity(0.7),
-                      //   Theme.of(context).focusColor.withOpacity(0.05),
-                      // ]
-                      )),
+                      // gradient: LinearGradient(begin: Alignment.bottomLeft, end: Alignment.topRight, 
+                     
+                      // ),
+                      ),
                   child: Icon(
                     Icons.notifications,
                     color: Theme.of(context).scaffoldBackgroundColor,
